@@ -1,0 +1,132 @@
+[
+  {
+    "Id":  1,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": ".NET",
+    "Description": ".NET Bot Black Hoodie, and more",
+    "Name": ".NET Bot Black Hoodie",
+    "Price": 19.5,
+    "availablestock": 100,
+    "onreorder": false
+  },
+  {
+    "Id": 2,
+    "CatalogType": "Mug",
+    "CatalogBrand": ".NET",
+    "Description": ".NET Black & White Mug",
+    "Name": ".NET Black & White Mug",
+    "Price": 8.5,
+    "availablestock": 89,
+    "onreorder": true
+  },
+  {
+    "Id": 3,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": "Other",
+    "Description": "Prism White T-Shirt",
+    "Name": "Prism White T-Shirt",
+    "Price": 12,
+    "availablestock": 56,
+    "onreorder": false
+  },
+  {
+    "Id": 4,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": ".NET",
+    "Description": ".NET Foundation T-shirt",
+    "Name": ".NET Foundation T-shirt",
+    "Price": 12,
+    "availablestock": 120,
+    "onreorder": false
+  },
+  {
+    "Id": 5,
+    "CatalogType": "Sheet",
+    "CatalogBrand": "Other",
+    "Description": "Roslyn Red Sheet",
+    "Name": "Roslyn Red Sheet",
+    "Price": 8.5,
+    "availablestock": 55,
+    "onreorder": false
+  },
+  {
+    "Id": 6,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": ".NET",
+    "Description": ".NET Blue Hoodie",
+    "Name": ".NET Blue Hoodie",
+    "Price": 12,
+    "availablestock": 17,
+    "onreorder": false
+  },
+  {
+    "Id": 7,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": "Other",
+    "Description": "Roslyn Red T-Shirt",
+    "Name": "Roslyn Red T-Shirt",
+    "Price": 12,
+    "availablestock": 8,
+    "onreorder": false
+  },
+  {
+    "Id": 8,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": "Other",
+    "Description": "Kudu Purple Hoodie",
+    "Name": "Kudu Purple Hoodie",
+    "Price": 8.5,
+    "availablestock": 34,
+    "onreorder": false
+  },
+  {
+    "Id": 9,
+    "CatalogType": "Mug",
+    "CatalogBrand": "Other",
+    "Description": "Cup<T> White Mug",
+    "Name": "Cup<T> White Mug",
+    "Price": 12,
+    "availablestock": 76,
+    "onreorder": false
+  },
+  {
+    "Id": 10,
+    "CatalogType": "Sheet",
+    "CatalogBrand": ".NET",
+    "Description": ".NET Foundation Sheet",
+    "Name": ".NET Foundation Sheet",
+    "Price": 12,
+    "availablestock": 11,
+    "onreorder": false
+  },
+  {
+    "Id": 11,
+    "CatalogType": "Sheet",
+    "CatalogBrand": ".NET",
+    "Description": "Cup<T> Sheet",
+    "Name": "Cup<T> Sheet",
+    "Price": 8.5,
+    "availablestock": 3,
+    "onreorder": false
+  },
+  {
+    "Id": 12,
+    "CatalogType": "T-Shirt",
+    "CatalogBrand": "Other",
+    "Description": "Prism White TShirt",
+    "Name": "Prism White TShirt",
+    "Price": 12,
+    "availablestock": 0,
+    "onreorder": false
+  },
+  {
+    "Id": 13,
+    "CatalogType": "Mug",
+    "CatalogBrand": "Other",
+    "Description": "De los Palotes",
+    "Name": "pepito",
+    "Price": 12,
+    "availablestock": 0,
+    "onreorder": false
+  }
+]
