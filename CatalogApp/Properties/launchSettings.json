@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "CatalogApp": {
+    "Catalog.API": {
       "commandName": "Project",
       "commandLineArgs": "host start --pause-on-error --port 1072"
     }

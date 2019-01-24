@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CatalogApp.Model
+namespace Catalog.API.Model
 {
     public class CatalogItem
     {
