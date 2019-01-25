@@ -19,7 +19,7 @@ namespace Basket.API
     {
         [FunctionName("UpdateBasket")]
         public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "put", Route = null)] HttpRequestMessage req,
+            [HttpTrigger(AuthorizationLevel.Function, "put", Route = "baskets")] HttpRequestMessage req,
             [Inject]IInMemoryBasketRepository basketRepository,
             ILogger log)
         {

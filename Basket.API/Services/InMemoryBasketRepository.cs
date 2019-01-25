@@ -9,7 +9,7 @@ namespace Basket.API.Services
 {
     public class InMemoryBasketRepository : IInMemoryBasketRepository
     {
-        private List<CustomerBasket> _baskets;
+        private static List<CustomerBasket> _baskets;
 
         public InMemoryBasketRepository()
         {
@@ -47,7 +47,7 @@ namespace Basket.API.Services
             {
                 customerBasket = new CustomerBasket()
                 {
-                    Id = Guid.NewGuid(),
+                    Id = basket.Id == Guid.Empty ? Guid.NewGuid() : basket.Id,
                     DateCreated = DateTime.Now,
                     DateUpdated = DateTime.Now,
                     Items = basket.Items

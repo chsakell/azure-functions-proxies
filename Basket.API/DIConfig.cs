@@ -9,7 +9,7 @@ public class DIConfig
         DependencyInjection.Initialize(builder =>
         {
                 builder.RegisterType<InMemoryBasketRepository>()
-                .As<IInMemoryBasketRepository>().SingleInstance();
+                        .As<IInMemoryBasketRepository>();
         }, functionName);
     }
 }

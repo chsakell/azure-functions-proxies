@@ -32,7 +32,7 @@ namespace Catalog.API
             if (item != null)
                 return new OkObjectResult(item);
             else
-                return new NotFoundObjectResult("Item doesn't exist");
+                return new NotFoundObjectResult("Item  not found");
 
 
         }
