@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+    "mock.catalog.items": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/items"
+      },
+      "responseOverrides": {
+        "response.body": "{'message' : 'Hello, world'}",
+        "response.headers.Content-Type": "application/json"
+      }
+    }
+  }
+}
