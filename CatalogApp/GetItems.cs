@@ -19,14 +19,12 @@ namespace Catalog.API
             Route = "items")] HttpRequest req,
             ILogger log, ExecutionContext context)
         {
- 
             string catalogItemsFile = Path.Combine(context.FunctionAppDirectory, "catalog.items.json");
             string itemsJson = File.ReadAllText(catalogItemsFile);
 
             var items = JsonConvert.DeserializeObject<List<CatalogItem>>(itemsJson);
 
             return new OkObjectResult(items);
-                
         }
     }
 }

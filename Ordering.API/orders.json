@@ -1,0 +1,54 @@
+[
+  {
+    "Id": "476CA2C1-4542-49CE-9A76-17DDF283A02D",
+    "Customer": "John Smith",
+    "Address": {
+      "Street": "123 Maple Street",
+      "City": "Pretendville",
+      "State": "NY",
+      "ZipCode": "12345"
+    },
+    "Items": [
+      {
+        "ProductName": ".NET Bot Black Hoodie",
+        "UnitPrice": 19.5,
+        "Discount": 15,
+        "Units": 1
+      },
+      {
+        "ProductName": ".NET Black & White Mug",
+        "UnitPrice": 8.5,
+        "Discount": 0,
+        "Units": 2
+      }
+    ],
+    "Status": "Submitted",
+    "OrderDate": "2019-01-02 13:30:00Z"
+  },
+  {
+    "Id": "20107BE0-C5A0-4D11-B100-B613AB0BFC53",
+    "Customer": "Bob Brown",
+    "Address": {
+      "Street": "456 Oak Lane",
+      "City": "Pretendville",
+      "State": "HI",
+      "ZipCode": "98999"
+    },
+    "Items": [
+      {
+        "ProductName": "Prism White T-Shirt",
+        "UnitPrice": 12,
+        "Discount": 50,
+        "Units": 1
+      },
+      {
+        "ProductName": "Roslyn Red Sheet",
+        "UnitPrice": 8.5,
+        "Discount": 0,
+        "Units": 2
+      }
+    ],
+    "Status": "Shipped",
+    "OrderDate": "2019-01-10 12:20:00Z"
+  }
+]
