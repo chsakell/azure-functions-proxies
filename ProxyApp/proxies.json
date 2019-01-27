@@ -1,19 +1,19 @@
 {
   "$schema": "http://json.schemastore.org/proxies",
   "proxies": {
-    "catalog.items": {
-      "matchCondition": {
-        "methods": [ "GET" ],
-        "route": "/api/items"
-      },
-      "backendUri": "http://localhost:1072/api/items"
-    },
     "catalog.item": {
       "matchCondition": {
         "methods": [ "GET" ],
         "route": "/api/items/{id}"
       },
       "backendUri": "http://localhost:1072/api/items/{id}"
+    },
+    "catalog.items": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/items"
+      },
+      "backendUri": "http://localhost:1072/api/items"
     },
     "baskets.get": {
       "matchCondition": {

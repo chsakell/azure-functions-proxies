@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyApp", "ProxyApp\ProxyA
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Basket.API\Basket.API.csproj", "{57AFA669-26AB-4418-A401-B0106A5C6ACC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.API", "Ordering.API\Ordering.API.csproj", "{E80C2D87-5594-4B48-888E-C222E7C0F437}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.API", "Ordering.API\Ordering.API.csproj", "{E80C2D87-5594-4B48-888E-C222E7C0F437}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

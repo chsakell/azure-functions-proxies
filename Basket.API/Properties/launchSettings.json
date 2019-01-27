@@ -1,8 +1,9 @@
 {
   "profiles": {
     "Basket.API": {
-      "commandName": "Project",
-      "commandLineArgs": "host start --pause-on-error --port 1073"
+      "commandName": "Executable",
+      "executablePath": "dotnet.exe",
+      "commandLineArgs": "%userprofile%\\AppData\\Roaming\\npm\\node_modules\\azure-functions-core-tools\\bin\\func.dll host start --pause-on-error --port 1073"
     }
   }
 }
