@@ -6,42 +6,43 @@
         "methods": [ "GET" ],
         "route": "/api/items/{id}"
       },
-      "backendUri": "http://localhost:1072/api/items/{id}"
+      "backendUri": "%catalog_api%/items/{id}",
+      "debug": true
     },
     "catalog.items": {
       "matchCondition": {
         "methods": [ "GET" ],
         "route": "/api/items"
       },
-      "backendUri": "http://localhost:1072/api/items"
+      "backendUri": "%catalog_api%/items"
     },
     "baskets.get": {
       "matchCondition": {
         "methods": [ "GET" ],
         "route": "/api/baskets/{id}"
       },
-      "backendUri": "http://localhost:1073/api/baskets/{id}"
+      "backendUri": "%basket_api%/baskets/{id}"
     },
     "baskets.update": {
       "matchCondition": {
         "methods": [ "PUT" ],
         "route": "/api/baskets"
       },
-      "backendUri": "http://localhost:1073/api/baskets"
+      "backendUri": "%basket_api%/baskets"
     },
     "baskets.delete": {
       "matchCondition": {
         "methods": [ "DELETE" ],
         "route": "/api/baskets/{id}"
       },
-      "backendUri": "http://localhost:1073/api/baskets/{id}"
+      "backendUri": "%basket_api%/baskets/{id}"
     },
     "orders.list": {
       "matchCondition": {
         "methods": [ "GET" ],
         "route": "/api/orders"
       },
-      "backendUri": "http://localhost:1074/api/orders"
+      "backendUri": "%ordering_api%/orders"
     }
   }
 }
