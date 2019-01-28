@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {},
+  "IsEncrypted": false,
+  "Values": {
+    "AZURE_FUNCTION_PROXY_DISABLE_LOCAL_CALL": true,
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "catalog_api": "http://localhost:1072/api",
+    "basket_api": "http://localhost:1073/api",
+    "ordering_api": "http://localhost:1074/api"
+  }  
+}

@@ -20,7 +20,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
     </None>
-    <None Update="proxies.json">
+    <None Update="proxies-inner.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
