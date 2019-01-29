@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "dd3a5769-91ea-4eb5-bd3f-b30126e55865",
+		"name": "Azure Function Proxies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ProxyApp - api/items",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/items",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProxyApp - api/items/{id}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/items/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"items",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProxyApp - api/orders",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/orders",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProxyApp - Update Basket",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"items\" : [\n\t\t{\n\t\t\t\"productId\" : 1,\n\t\t\t\"productName\": \".NET Bot Black Hoodie\",\n\t\t\t\"unitPrice\" : 19.5,\n\t\t\t\"quantity\": 2\n\t\t},\n\t\t{\n\t\t\t\"productId\" : 2,\n\t\t\t\"productName\": \".NET Black & White Mug\",\n\t\t\t\"unitPrice\" : 8.5,\n\t\t\t\"quantity\": 3\n\t\t}\n\t]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/baskets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"baskets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ProxyApp - Get Basket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/baskets/5ca26cfa-b6fb-48cf-bab7-7de56f4ad0a9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"baskets",
+						"5ca26cfa-b6fb-48cf-bab7-7de56f4ad0a9"
+					]
+				},
+				"description": "Make sure you have a valid basket Id by using the Update Basket first"
+			},
+			"response": []
+		},
+		{
+			"name": "ProxyApp - Delete Basket",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/baskets/5ca26cfa-b6fb-48cf-bab7-7de56f4ad0a9",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"baskets",
+						"5ca26cfa-b6fb-48cf-bab7-7de56f4ad0a9"
+					]
+				},
+				"description": "Make sure you have a valid Basket ID by using the Update Basket first"
+			},
+			"response": []
+		}
+	]
+}
