@@ -28,6 +28,8 @@
     * **Launch**: Executable
     * **Executable**: dotnet.exe
     * **Application arguments**: %userprofile%\AppData\Roaming\npm\node_modules\azure-functions-core-tools\bin\func.dll host start –pause-on-error –port 1074
+6. Right click the solution, select `Set Startup Projects` and configure as follow:
+    * ![Configure Startup projects](https://chsakell.files.wordpress.com/2019/02/azure-functions-proxies-05.png)
 
 
 > In case `azure-functions-core-tools` package has installed in different folder, update application arguments accordingly
