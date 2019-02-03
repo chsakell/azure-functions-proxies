@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/proxies",
+  "proxies": {
+
+    "v2.catalog.items": {
+      "matchCondition": {
+        "methods": [ "GET" ],
+        "route": "/api/items/"
+      },
+      "backendUri": "http://localhost:1072/api/v2/items"
+
+    }
+  }
+}
