@@ -28,7 +28,7 @@
     * **Application arguments**: %userprofile%\AppData\Roaming\npm\node_modules\azure-functions-core-tools\bin\func.dll host start –pause-on-error –port 1074
 
 
-> In case `azure-functions-core-tools` package has installed in different folder, make you need to update application arguments accordingly
+> In case `azure-functions-core-tools` package has installed in different folder, update application arguments accordingly
 
 <h3 style="font-weight:normal;">Follow chsakell's Blog</h3>
 <table id="gradient-style" style="box-shadow:3px -2px 10px #1F394C;font-size:12px;margin:15px;width:290px;text-align:left;border-collapse:collapse;" summary="">
