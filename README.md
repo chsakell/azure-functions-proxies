@@ -2,6 +2,8 @@
 
 ## Blob post - [Azure Functions Proxies in Action](https://wp.me/p3mRWu-1wp)
 
+![Azure Functions Proxies](https://chsakell.files.wordpress.com/2019/02/azure-functions-proxies-22-sm.png)
+
 * Learn how to modify requests and responses
 * Use a unified endpoint for your microservice architecture
 * Mock your API responses during development
