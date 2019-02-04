@@ -34,6 +34,9 @@
 
 > In case `azure-functions-core-tools` package has installed in different folder, update application arguments accordingly
 
+## Testing
+Load this [Postman-samples](https://github.com/chsakell/azure-functions-proxies/blob/master/ProxyApp/postman-samples) collection on Postman and test the Proxy App
+
 <h3 style="font-weight:normal;">Follow chsakell's Blog</h3>
 <table id="gradient-style" style="box-shadow:3px -2px 10px #1F394C;font-size:12px;margin:15px;width:290px;text-align:left;border-collapse:collapse;" summary="">
 <thead>
